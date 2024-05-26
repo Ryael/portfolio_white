@@ -97,6 +97,10 @@ ul {
   padding-right: 20px;
 }
 
+.social-container .social__icon:last-child {
+  padding-right: 0px;
+}
+
 .social-container .social__icon i {
   color: #09383E;
 }
@@ -219,13 +223,11 @@ ul {
   transform: translateY(-50%);
 }
 .scroller {
-  width: 7.5rem;
-  display: inline-block;
-  float: right;
   position: relative;
-  top: -15%;
-  transform: translateY(50%);
-  overflow: hidden;
+  justify-self: end;
+  top: 10.5rem;
+  padding-right: 50px;
+  align-self: center;
 }
 .scroller .page-title {
   font-family: 'Playfair Display', serif;
