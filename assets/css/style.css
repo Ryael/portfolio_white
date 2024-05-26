@@ -25,3 +25,71 @@ a {
 ul {
   list-style: none;
 }
+
+#hero-section {
+  height: 100vh;
+  background-image: url('https://s29.postimg.org/vho8xb2pj/landing_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Montserrat', sans-serif;
+  color: #09383E;
+}
+
+.header {
+  padding: 4.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  width: 2.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 50px;
+}
+
+.menu-icon__line {
+  width: 1.5rem;
+  height: 0.2rem;
+  background-color: #0C383E;
+  display: block;
+}
+
+.menu-icon__line:before, .menu-icon__line:after {
+  content: '';
+  width: 1.5rem;
+  height: 0.2rem;
+  background-color: #0C383E;
+  display: inline-block;
+  position: relative;
+}
+
+.menu-icon__line:before {
+  left: 0.5rem;
+  top: -0.6rem;
+}
+
+.menu-icon__line:after {
+  top: -1.8rem;
+}
+
+.social-container {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  padding-right: 50px;
+}
+
+.social-container .social__icon {
+  cursor: pointer;
+  font-size: 1.7rem;
+  padding-right: 20px;
+}
+
+.social-container .social__icon i {
+  color: #09383E;
+}
