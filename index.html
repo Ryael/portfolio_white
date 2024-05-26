@@ -24,28 +24,70 @@
   <body>
     <!-- Hero Section -->
     <section id="hero-section">
-      <header class="header">
-        <div class="menu-icon">
-          <span class="menu-icon__line"></span>
+    <header class="header">
+      <div class="menu-icon">
+        <span class="menu-icon__line"></span>
+      </div>
+      <ul class="social-container">
+        <li class="social__icon social__icon--fb">
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social__icon social__icon--dr">
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social__icon social__icon--in">
+          <a href="#" target="_blank">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </header>
+      <div class="content__wrapper">
+        <p class="coords">N 49° 16' 35.173"  /  W 0° 42' 11.30"</p>
+        <div class="ellipses-container">
+          <!-- <h1 class="greeting">Hello</h1> -->
+          <h2>
+            Hey there!
+            <br>
+            I'm Andrey Belyakov,
+            <br>
+            a <span class="element"></span>
+          </h2>
+          <div class="ellipses ellipses__outer--thin">
+            <div class="ellipses ellipses__orbit"></div>
+          </div>
+          <div class="ellipses ellipses__outer--thick"></div>
         </div>
-        <ul class="social-container">
-          <li class="social__icon social__icon--fb">
-            <a href="#" target="_blank">
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </li>
-          <li class="social__icon social__icon--dr">
-            <a href="#" target="_blank">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li class="social__icon social__icon--in">
-            <a href="#" target="_blank">
-              <i class="fa-regular fa-envelope"></i>
-            </a>
-          </li>
-        </ul>
-      </header>
+        <div class="scroller">
+          <p class="page-title">home</p>
+          <div class="timeline">
+            <span class="timeline__unit"></span>
+            <span class="timeline__unit timeline__unit--active"></span>
+            <span class="timeline__unit"></span>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- End Hero Section -->
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous">
+    </script>
+    <!-- End jQuery -->
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+    <!-- End JavaScript -->
+
+    <!-- Font Awesome Script -->
+    <script src="https://kit.fontawesome.com/d93feb1e77.js" crossorigin="anonymous"></script>
+    <!--End Font Awesome Script -->
   </body>
 </html>
