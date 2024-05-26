@@ -145,7 +145,6 @@ ul {
 }
 
 .ellipses-container h2 {
-  font-family: 'Playfair Display', sans-serif;
   margin: 0 auto;
   letter-spacing: 0.2rem;
   font-size: 2.4rem;
@@ -234,7 +233,7 @@ ul {
   align-self: center;
 }
 .scroller .page-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   letter-spacing: 0.5rem;
   display: inline-block;
   float: left;
