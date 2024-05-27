@@ -16,6 +16,7 @@ html {
 
 body {
   font-size: 1.4rem; /* =14px */
+  background: #fcfcfc;
 }
 
 h1 {
@@ -232,13 +233,17 @@ ul {
   padding-right: 50px;
   align-self: center;
 }
-.scroller .page-title {
+
+ .scroller .page-title {
   font-family: "Playfair Display", serif;
   letter-spacing: 0.5rem;
   display: inline-block;
   float: left;
   margin-top: 1rem;
+  font-style: italic;
+  padding-right: 15px;
 }
+
 .scroller .timeline {
   width: 1.5rem;
   height: 9rem;
