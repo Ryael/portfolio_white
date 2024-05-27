@@ -33,10 +33,6 @@ ul {
 
 #hero-section {
   height: 100vh;
-  background-image: url('https://s29.postimg.org/vho8xb2pj/landing_bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
   font-family: 'Montserrat', sans-serif;
   color: #09383E;
 }
