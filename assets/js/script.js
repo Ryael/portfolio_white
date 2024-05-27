@@ -373,7 +373,7 @@ $("document").ready(function() {
 
 function handleTyping () {
   $(".element").typed({
-    strings: ["Software Developer.", "cat lover.", "Website Designer."],
+    strings: ["UX/UI Designer.", "cat lover.", "Graphic Designer."],
     typeSpeed: 50,
     starDelay: 200,
     backDelay: 1200,
