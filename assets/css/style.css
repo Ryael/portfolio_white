@@ -105,7 +105,13 @@ ul {
 }
 
 .social-container .header-social-icon i {
+  color: #748284;
+  transition: 0.3s ease-in-out;
+}
+
+.social-container .header-social-icon i:hover {
   color: #09383E;
+  transition: 0.3s ease-in-out;
 }
 
 .coordinates {
